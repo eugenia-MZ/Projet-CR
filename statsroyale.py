@@ -1,20 +1,30 @@
 import requests
 from bs4 import BeautifulSoup
 
-response = requests.get("https://cdn.statsroyale.com/gamedata-v4.json")
-result_deck_popular = requests.get("https://stats-royale-api-js-beta-z2msk5bu3q-uk.a.run.app/deckbuilder/search?size=30&source=pathoflegend&sort=count")
+categories = ["anti-air-troop", "big-tank", "mini-tank", "building", "spell"]
+all_categories = []
 
-content_html = response.text
-print(response.status_code)
+for category in categories:
+    url = f"https://www.deckshop.pro/card/property/{category}"
+    all_categories.append(url)
 
-content_deck_popular = result_deck_popular.text
+# print(all_categories[0])
 
-with open("all_data_CR.html", "w") as file:
-    file.write(content_html)
+win_condition_response = requests.get("https://www.deckshop.pro/card/flag/win-condition")
 
-with open("deck_popular.html", "w") as file2:
-    file2.write(content_deck_popular)
+win_condition_html = win_condition_response.text
 
-# soup = BeautifulSoup(content_html, "html.parser")
-soup = BeautifulSoup(content_deck_popular, "html.parser")
-soup.prettify()
+with open("win-condition.html", "w") as file:
+    file.write(win_condition_html)
+
+
+for url in all_categories:
+    category_response = requests.get(url)
+    category_content = category_response.text
+
+    filename = url.split("/")[-1]
+
+    with open(f"{filename}.html", "w") as file:
+        file.write(category_content)
+
+    soup_anti_air_troop = BeautifulSoup(category_content, "html.parser")
