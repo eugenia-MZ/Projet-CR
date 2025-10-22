@@ -68,6 +68,7 @@ for unit in all_units:
 
     all_data_units.append(data_unit)
 
-# with open("all_data_units.json", "w") as file:
-#     json.dump(all_data_units, file)
-# print("Fichier créé avec succès !")
+with open("test.json", "w") as file:
+    json.dump(all_data_units, file)
+
+print("✅ Fichier créé avec succès !")
