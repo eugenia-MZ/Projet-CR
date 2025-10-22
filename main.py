@@ -2,14 +2,17 @@ import requests
 from bs4 import BeautifulSoup
 import json
 
-categories = ["anti-air-troop", "big-tank", "mini-tank", "building", "spell"]
-all_categories = []
+categories = ["anti-air-troop", "big-tank", "mini-tank", "building", "spell", "win-condition"]
+all_url_categories = []
 
 for category in categories:
-    url_category = f"https://www.deckshop.pro/card/property/{category}"
-    all_categories.append(url_category)
+    if category == "win-condition":
+        all_url_categories.append("https://www.deckshop.pro/card/flag/win-condition")
+    else:
+        url_category = f"https://www.deckshop.pro/card/property/{category}"
+        all_url_categories.append(url_category)
 
-# print(all_categories[0])
+# print(all_url_categories[0])
 
 win_condition_response = requests.get("https://www.deckshop.pro/card/flag/win-condition")
 
@@ -20,7 +23,7 @@ with open("win-condition.html", "w") as file:
     file.write(win_condition_html)
 """
 
-for url in all_categories:
+for url in all_url_categories:
     category_response = requests.get(url)
     category_content = category_response.text
 
@@ -34,6 +37,7 @@ for url in all_categories:
     soup = BeautifulSoup(category_content, "html.parser")
 
     links_units = []
+    anti_air_troop_units = []
 
     for img in soup.find_all("img", class_="card"):
         if "opacity-30" in img.get("class", []) or "grayscale" in img.get("class", []):
@@ -50,7 +54,7 @@ for url in all_categories:
     all_units = [link[13:] for link in links_units]
 
     # print(f"\nFichier : {filename}")
-    # print("\n", all_units)
+    print("\n", all_units)
 
     all_url_units = []
 
@@ -58,7 +62,12 @@ for url in all_categories:
         url_unit = f"https://www.deckshop.pro{unit}"
         all_url_units.append(url_unit)
 
-    # print(all_url_units)
+    print(all_url_units)
+
+    # with open(f"units/{filename}.py", "w") as file:
+    #     json.dump(all_units, file)
+
+    """
     all_data_units = []
     for url_unit in all_url_units:
         url_unit_response = requests.get(url_unit)
@@ -92,6 +101,6 @@ for url in all_categories:
 
     print(all_data_units)
     # Écriture dans un fichier JSON unique
-    
+    """
 
     
