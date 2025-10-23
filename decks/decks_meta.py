@@ -16,3 +16,6 @@ for deck in decks:
 
 for deck in deck_meta_data:
     print(deck)
+
+with open("deck_meta_data.json", "w") as file:
+    json.dump(deck_meta_data, file)
