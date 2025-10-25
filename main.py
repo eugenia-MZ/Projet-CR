@@ -5,7 +5,10 @@ import json
 categories = ["anti-air-troop", "big-tank", "mini-tank", "building", "spell", "win-condition"]
 all_url_categories = []
 
+
+# On parcourt la liste des catégories et on récupère leur url respectif
 for category in categories:
+    # format d'url différent pour win condition 
     if category == "win-condition":
         all_url_categories.append("https://www.deckshop.pro/card/flag/win-condition")
     else:
@@ -15,7 +18,6 @@ for category in categories:
 # print(all_url_categories[0])
 
 win_condition_response = requests.get("https://www.deckshop.pro/card/flag/win-condition")
-
 win_condition_html = win_condition_response.text
 
 """
@@ -27,6 +29,7 @@ for url in all_url_categories:
     category_response = requests.get(url)
     category_content = category_response.text
 
+    # nom de fichier qui reprend le dernier élément de chaque url
     filename = url.split("/")[-1]
 
     """

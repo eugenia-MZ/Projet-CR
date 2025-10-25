@@ -1,0 +1,702 @@
+[
+  {
+    "deck_number": 1,
+    "elixir_moyen": 3.38,
+    "units": [
+      "battle-ram",
+      "rune-giant",
+      "ice-golem",
+      "goblin-hut",
+      "mirror",
+      "freeze",
+      "electro-wizard",
+      "minion-horde"
+    ]
+  },
+  {
+    "deck_number": 2,
+    "elixir_moyen": 3,
+    "units": [
+      "goblin-barrel",
+      "goblinstein",
+      "ice-golem",
+      "bomb-tower",
+      "the-log",
+      "mirror",
+      "minion-horde",
+      "goblin-gang"
+    ]
+  },
+  {
+    "deck_number": 3,
+    "elixir_moyen": 3.75,
+    "units": [
+      "royal-hogs",
+      "goblinstein",
+      "lumberjack",
+      "tesla",
+      "poison",
+      "mirror",
+      "electro-dragon",
+      "little-prince"
+    ]
+  },
+  {
+    "deck_number": 4,
+    "elixir_moyen": 3.62,
+    "units": [
+      "goblin-drill",
+      "rune-giant",
+      "goblin-machine",
+      "inferno-tower",
+      "barbarian-barrel",
+      "mirror",
+      "wizard",
+      "mother-witch"
+    ]
+  },
+  {
+    "deck_number": 5,
+    "elixir_moyen": 3.5,
+    "units": [
+      "skeleton-barrel",
+      "rune-giant",
+      "goblin-cage",
+      "tesla",
+      "the-log",
+      "poison",
+      "archers",
+      "musketeer"
+    ]
+  },
+  {
+    "deck_number": 6,
+    "elixir_moyen": 3.75,
+    "units": [
+      "miner",
+      "rune-giant",
+      "dark-prince",
+      "barbarian-hut",
+      "royal-delivery",
+      "tornado",
+      "dart-goblin",
+      "furnace"
+    ]
+  },
+  {
+    "deck_number": 7,
+    "elixir_moyen": 4,
+    "units": [
+      "goblin-barrel",
+      "pekka",
+      "boss-bandit",
+      "tesla",
+      "arrows",
+      "fireball",
+      "goblin-gang",
+      "spear-goblins"
+    ]
+  },
+  {
+    "deck_number": 8,
+    "elixir_moyen": 3.88,
+    "units": [
+      "giant",
+      "rune-giant",
+      "goblin-demolisher",
+      "inferno-tower",
+      "arrows",
+      "barbarian-barrel",
+      "musketeer",
+      "skeleton-dragons"
+    ]
+  },
+  {
+    "deck_number": 9,
+    "elixir_moyen": 3.62,
+    "units": [
+      "goblin-drill",
+      "rune-giant",
+      "baby-dragon",
+      "cannon",
+      "tornado",
+      "goblin-curse",
+      "hunter",
+      "witch"
+    ]
+  },
+  {
+    "deck_number": 10,
+    "elixir_moyen": 3.5,
+    "units": [
+      "mortar",
+      "goblinstein",
+      "fisherman",
+      "cannon",
+      "clone",
+      "poison",
+      "mega-minion",
+      "firecracker"
+    ]
+  },
+  {
+    "deck_number": 11,
+    "elixir_moyen": 3.5,
+    "units": [
+      "wall-breakers",
+      "rune-giant",
+      "prince",
+      "inferno-tower",
+      "vines",
+      "zap",
+      "phoenix",
+      "little-prince"
+    ]
+  },
+  {
+    "deck_number": 12,
+    "elixir_moyen": 4.12,
+    "units": [
+      "electro-giant",
+      "giant-skeleton",
+      "dark-prince",
+      "tombstone",
+      "the-log",
+      "goblin-curse",
+      "archer-queen",
+      "electro-wizard"
+    ]
+  },
+  {
+    "deck_number": 13,
+    "elixir_moyen": 4.12,
+    "units": [
+      "hog-rider",
+      "rune-giant",
+      "goblin-machine",
+      "barbarian-hut",
+      "fireball",
+      "rage",
+      "zappies",
+      "skeleton-dragons"
+    ]
+  },
+  {
+    "deck_number": 14,
+    "elixir_moyen": 3.75,
+    "units": [
+      "mortar",
+      "giant-skeleton",
+      "golden-knight",
+      "tesla",
+      "rage",
+      "earthquake",
+      "flying-machine",
+      "mega-minion"
+    ]
+  },
+  {
+    "deck_number": 15,
+    "elixir_moyen": 3.88,
+    "units": [
+      "lava-hound",
+      "goblinstein",
+      "royal-ghost",
+      "cannon",
+      "royal-delivery",
+      "zap",
+      "electro-wizard",
+      "hunter"
+    ]
+  },
+  {
+    "deck_number": 16,
+    "elixir_moyen": 3.5,
+    "units": [
+      "wall-breakers",
+      "rune-giant",
+      "monk",
+      "barbarian-hut",
+      "earthquake",
+      "zap",
+      "furnace",
+      "spear-goblins"
+    ]
+  },
+  {
+    "deck_number": 17,
+    "elixir_moyen": 3.75,
+    "units": [
+      "skeleton-barrel",
+      "mega-knight",
+      "prince",
+      "goblin-hut",
+      "rage",
+      "lightning",
+      "fire-spirit",
+      "spear-goblins"
+    ]
+  },
+  {
+    "deck_number": 18,
+    "elixir_moyen": 3.75,
+    "units": [
+      "hog-rider",
+      "pekka",
+      "fisherman",
+      "tesla",
+      "barbarian-barrel",
+      "clone",
+      "ice-wizard",
+      "electro-wizard"
+    ]
+  },
+  {
+    "deck_number": 19,
+    "elixir_moyen": 3.75,
+    "units": [
+      "hog-rider",
+      "giant-skeleton",
+      "prince",
+      "tombstone",
+      "rage",
+      "clone",
+      "electro-wizard",
+      "mega-minion"
+    ]
+  },
+  {
+    "deck_number": 20,
+    "elixir_moyen": 3.38,
+    "units": [
+      "skeleton-barrel",
+      "giant-skeleton",
+      "golden-knight",
+      "tesla",
+      "mirror",
+      "vines",
+      "hunter",
+      "mega-minion"
+    ]
+  },
+  {
+    "deck_number": 21,
+    "elixir_moyen": 4.12,
+    "units": [
+      "royal-giant",
+      "rune-giant",
+      "ice-golem",
+      "tombstone",
+      "goblin-curse",
+      "lightning",
+      "wizard",
+      "witch"
+    ]
+  },
+  {
+    "deck_number": 22,
+    "elixir_moyen": 3.75,
+    "units": [
+      "royal-hogs",
+      "pekka",
+      "royal-ghost",
+      "cannon",
+      "arrows",
+      "barbarian-barrel",
+      "ice-wizard",
+      "electro-wizard"
+    ]
+  },
+  {
+    "deck_number": 23,
+    "elixir_moyen": 3.75,
+    "units": [
+      "wall-breakers",
+      "mega-knight",
+      "lumberjack",
+      "goblin-hut",
+      "clone",
+      "poison",
+      "phoenix",
+      "bats"
+    ]
+  },
+  {
+    "deck_number": 24,
+    "elixir_moyen": 4.12,
+    "units": [
+      "goblin-giant",
+      "giant-skeleton",
+      "prince",
+      "bomb-tower",
+      "vines",
+      "fireball",
+      "bats",
+      "mega-minion"
+    ]
+  },
+  {
+    "deck_number": 25,
+    "elixir_moyen": 4,
+    "units": [
+      "elixir-golem",
+      "goblinstein",
+      "cannon-cart",
+      "goblin-hut",
+      "void",
+      "freeze",
+      "mega-minion",
+      "witch"
+    ]
+  },
+  {
+    "deck_number": 26,
+    "elixir_moyen": 3.62,
+    "units": [
+      "elixir-golem",
+      "pekka",
+      "cannon-cart",
+      "cannon",
+      "tornado",
+      "goblin-curse",
+      "mega-minion",
+      "ice-wizard"
+    ]
+  },
+  {
+    "deck_number": 27,
+    "elixir_moyen": 4.12,
+    "units": [
+      "battle-ram",
+      "mega-knight",
+      "ice-golem",
+      "barbarian-hut",
+      "vines",
+      "clone",
+      "flying-machine",
+      "phoenix"
+    ]
+  },
+  {
+    "deck_number": 28,
+    "elixir_moyen": 4.12,
+    "units": [
+      "royal-giant",
+      "giant-skeleton",
+      "bandit",
+      "barbarian-hut",
+      "royal-delivery",
+      "rage",
+      "firecracker",
+      "zappies"
+    ]
+  },
+  {
+    "deck_number": 29,
+    "elixir_moyen": 4.12,
+    "units": [
+      "battle-ram",
+      "goblinstein",
+      "mighty-miner",
+      "elixir-collector",
+      "royal-delivery",
+      "fireball",
+      "zappies",
+      "ice-wizard"
+    ]
+  },
+  {
+    "deck_number": 30,
+    "elixir_moyen": 4.12,
+    "units": [
+      "balloon",
+      "giant-skeleton",
+      "goblin-demolisher",
+      "elixir-collector",
+      "rage",
+      "goblin-curse",
+      "electro-dragon",
+      "dart-goblin"
+    ]
+  },
+  {
+    "deck_number": 31,
+    "elixir_moyen": 3.88,
+    "units": [
+      "miner",
+      "giant-skeleton",
+      "mini-pekka",
+      "bomb-tower",
+      "rocket",
+      "tornado",
+      "mega-minion",
+      "spear-goblins"
+    ]
+  },
+  {
+    "deck_number": 32,
+    "elixir_moyen": 3.5,
+    "units": [
+      "goblin-giant",
+      "rune-giant",
+      "bowler",
+      "tombstone",
+      "rage",
+      "vines",
+      "bats",
+      "princess"
+    ]
+  },
+  {
+    "deck_number": 33,
+    "elixir_moyen": 3.62,
+    "units": [
+      "skeleton-barrel",
+      "pekka",
+      "executioner",
+      "elixir-collector",
+      "rage",
+      "mirror",
+      "mega-minion",
+      "little-prince"
+    ]
+  },
+  {
+    "deck_number": 34,
+    "elixir_moyen": 3.75,
+    "units": [
+      "miner",
+      "giant-skeleton",
+      "ice-golem",
+      "elixir-collector",
+      "arrows",
+      "void",
+      "mega-minion",
+      "zappies"
+    ]
+  },
+  {
+    "deck_number": 35,
+    "elixir_moyen": 4,
+    "units": [
+      "ram-rider",
+      "rune-giant",
+      "monk",
+      "cannon",
+      "freeze",
+      "earthquake",
+      "firecracker",
+      "archer-queen"
+    ]
+  },
+  {
+    "deck_number": 36,
+    "elixir_moyen": 4,
+    "units": [
+      "ram-rider",
+      "giant-skeleton",
+      "knight",
+      "goblin-hut",
+      "arrows",
+      "fireball",
+      "goblin-gang",
+      "phoenix"
+    ]
+  },
+  {
+    "deck_number": 37,
+    "elixir_moyen": 4,
+    "units": [
+      "graveyard",
+      "pekka",
+      "royal-ghost",
+      "bomb-tower",
+      "vines",
+      "the-log",
+      "inferno-dragon",
+      "zappies"
+    ]
+  },
+  {
+    "deck_number": 38,
+    "elixir_moyen": 4.12,
+    "units": [
+      "battle-ram",
+      "giant-skeleton",
+      "fisherman",
+      "barbarian-hut",
+      "zap",
+      "clone",
+      "night-witch",
+      "archer-queen"
+    ]
+  },
+  {
+    "deck_number": 39,
+    "elixir_moyen": 4.12,
+    "units": [
+      "graveyard",
+      "goblinstein",
+      "lumberjack",
+      "bomb-tower",
+      "earthquake",
+      "clone",
+      "zappies",
+      "archer-queen"
+    ]
+  },
+  {
+    "deck_number": 40,
+    "elixir_moyen": 3.62,
+    "units": [
+      "goblin-drill",
+      "goblinstein",
+      "prince",
+      "inferno-tower",
+      "earthquake",
+      "the-log",
+      "bats",
+      "minions"
+    ]
+  },
+  {
+    "deck_number": 41,
+    "elixir_moyen": 3.75,
+    "units": [
+      "x-bow",
+      "mega-knight",
+      "ice-golem",
+      "goblin-hut",
+      "vines",
+      "tornado",
+      "fire-spirit",
+      "mother-witch"
+    ]
+  },
+  {
+    "deck_number": 42,
+    "elixir_moyen": 3.75,
+    "units": [
+      "graveyard",
+      "giant-skeleton",
+      "ice-golem",
+      "elixir-collector",
+      "barbarian-barrel",
+      "rage",
+      "dart-goblin",
+      "furnace"
+    ]
+  },
+  {
+    "deck_number": 43,
+    "elixir_moyen": 4.12,
+    "units": [
+      "royal-hogs",
+      "rune-giant",
+      "dark-prince",
+      "tesla",
+      "rocket",
+      "the-log",
+      "musketeer",
+      "night-witch"
+    ]
+  },
+  {
+    "deck_number": 44,
+    "elixir_moyen": 3.88,
+    "units": [
+      "royal-giant",
+      "mega-knight",
+      "ice-golem",
+      "cannon",
+      "freeze",
+      "earthquake",
+      "hunter",
+      "bats"
+    ]
+  },
+  {
+    "deck_number": 45,
+    "elixir_moyen": 3.75,
+    "units": [
+      "goblin-barrel",
+      "pekka",
+      "bandit",
+      "tesla",
+      "goblin-curse",
+      "freeze",
+      "inferno-dragon",
+      "princess"
+    ]
+  },
+  {
+    "deck_number": 46,
+    "elixir_moyen": 3.88,
+    "units": [
+      "battle-ram",
+      "pekka",
+      "lumberjack",
+      "tombstone",
+      "tornado",
+      "royal-delivery",
+      "flying-machine",
+      "firecracker"
+    ]
+  },
+  {
+    "deck_number": 47,
+    "elixir_moyen": 3.5,
+    "units": [
+      "wall-breakers",
+      "rune-giant",
+      "royal-ghost",
+      "tesla",
+      "arrows",
+      "freeze",
+      "musketeer",
+      "night-witch"
+    ]
+  },
+  {
+    "deck_number": 48,
+    "elixir_moyen": 4.12,
+    "units": [
+      "graveyard",
+      "rune-giant",
+      "bowler",
+      "elixir-collector",
+      "clone",
+      "fireball",
+      "princess",
+      "goblin-gang"
+    ]
+  },
+  {
+    "deck_number": 49,
+    "elixir_moyen": 3.5,
+    "units": [
+      "hog-rider",
+      "pekka",
+      "fisherman",
+      "tombstone",
+      "the-log",
+      "rage",
+      "magic-archer",
+      "dart-goblin"
+    ]
+  },
+  {
+    "deck_number": 50,
+    "elixir_moyen": 4.12,
+    "units": [
+      "goblin-barrel",
+      "rune-giant",
+      "rascals",
+      "goblin-hut",
+      "goblin-curse",
+      "lightning",
+      "night-witch",
+      "electro-dragon"
+    ]
+  }
+]

@@ -8,11 +8,11 @@ with open("Stats_Royale_english.html", encoding="utf-8") as f:
 
 units_data = []
 
-rows = soup.find_all("tr")
+table_lignes = soup.find_all("tr")
 
-for row in rows:
+for each_ligne in table_lignes:
     # Nom de la carte
-    name_tag = row.find("div", class_="text-left hidden sm:block")
+    name_tag = each_ligne.find("div", class_="text-left hidden sm:block")
     if not name_tag:
         continue
 
@@ -20,20 +20,12 @@ for row in rows:
     name = name_tag.text.strip().lower().replace(" ", "-")
 
     # Taux de réussite et d'utilisation
-    rates = row.find_all("div", class_="flex justify-end items-center text-3xl font-bold")
+    rates = each_ligne.find_all("div", class_="flex justify-end items-center text-3xl font-bold")
     if len(rates) >= 2:
         win_rate = rates[0].text.strip()
         use_rate = rates[1].text.strip()
     else:
         win_rate = use_rate = "N/A"
-
-    # On garde uniquement si les taux existent
-    if win_rate and use_rate and win_rate != "N/A":
-        units_data.append({
-            "name": name,
-            "win_rate": win_rate,
-            "use_rate": use_rate
-        })
 
 # Affiche le résultat final
 print(units_data)

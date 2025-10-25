@@ -27,16 +27,22 @@ win_condition_units = ["skeleton-barrel", "mortar", "royal-giant", "elixir-golem
 
 # Correspondance catégorie
 category_lookup = {}
+
 for unit in anti_air_troop_units:
     category_lookup[unit] = "anti-air-troop"
+
 for unit in big_tank_units:
     category_lookup[unit] = "big-tank"
+
 for unit in building_units:
     category_lookup[unit] = "building"
+
 for unit in mini_tank_units:
     category_lookup[unit] = "mini-tank"
+
 for unit in spell_units:
     category_lookup[unit] = "spell"
+
 for unit in win_condition_units:
     category_lookup[unit] = "win-condition"
 
@@ -49,12 +55,20 @@ for unit in all_units:
     response = requests.get(url_unit)
     soup = BeautifulSoup(response.text, "html.parser")
 
+    win_rate = rate_lookup.get(unit, {}).get("win_rate")
+    use_rate = rate_lookup.get(unit, {}).get("use_rate")
+
+    win_rate_value = float(str(win_rate).replace("%", ""))
+    use_rate_value = float(str(use_rate).replace("%", ""))
+    efficacity = f"{round(0.75 * win_rate_value + 0.25 * use_rate_value, 2)}%"
+
     data_unit = {
         "name": unit,
-        "category": category_lookup.get(unit, "unknown"),
-        "elixir": elixir_lookup.get(unit, "null"),
-        "win_rate": rate_lookup.get(unit, {}).get("win_rate", "N/A"),
-        "use_rate": rate_lookup.get(unit, {}).get("use_rate", "N/A")
+        "category": category_lookup.get(unit),
+        "elixir": elixir_lookup.get(unit),
+        "win_rate": rate_lookup.get(unit, {}).get("win_rate"),
+        "use_rate": rate_lookup.get(unit, {}).get("use_rate"),
+        "efficacity (75% WR + 25% UR)": efficacity
     }
 
     # Ajouter les stats depuis le tableau
@@ -68,6 +82,6 @@ for unit in all_units:
 
     all_data_units.append(data_unit)
 
-# with open("all_data_units.json", "w") as file:
-#     json.dump(all_data_units, file)
-# print("Fichier créé avec succès !")
+with open("all_data_units.json", "w") as file:
+    json.dump(all_data_units, file)
+print("Fichier créé avec succès !")
